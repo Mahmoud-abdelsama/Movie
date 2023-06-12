@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/javaa.cod/MovieApp2/app/src/main/res/drawable/button_background.xml" value="0.1145" />
-        <entry key="..\:/javaa.cod/MovieApp2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/javaa.cod/MovieApp2/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/javaa.cod/MovieApp2/app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="..\:/javaa.cod/MovieApp2/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/javaa.cod/MovieApp2/app/src/main/res/layout/activity_sign_up.xml" value="0.18" />
       </map>

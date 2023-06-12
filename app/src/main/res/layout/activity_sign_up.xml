@@ -28,14 +28,30 @@
 
             <EditText
 
+                android:id="@+id/siginup_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="@={vm.email}"
+                app:errorText="@{vm.errorEmail}"
+                android:drawableLeft="@drawable/iconemail"
+                android:padding="8dp"
+                android:hint=" userName"
+                tools:ignore="HardcodedText">
+
+            </EditText>
+
+            <EditText
+
                 android:id="@+id/siginup_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
                 android:text="@={vm.email}"
                 app:errorText="@{vm.errorEmail}"
+                android:drawableLeft="@drawable/iconemail"
                 android:padding="8dp"
-                android:hint="email"
+                android:hint=" email"
                 tools:ignore="HardcodedText">
 
             </EditText>
@@ -44,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
-                android:hint="password"
+                android:hint=" password"
                 android:text="@={vm.password}"
                 app:errorText="@{vm.errorPassword}"
                 android:padding="8dp"
@@ -54,7 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="12dp"
-                android:hint="Confirm password"
+                android:hint=" Confirm password"
                 android:text="@={vm.confirmpassword}"
                 app:errorText="@{vm.errorConfirmPassword}"
                 android:padding="8dp"
@@ -70,7 +86,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="24dp"
 
-                    android:text="Rememper password"
+                    android:text=" Rememper password"
                     android:drawableLeft="@drawable/vectorpass" />
 
                 <TextView
@@ -87,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:backgroundTint="#B91825"
-                android:onClick="@{()->vm.siginUp()}"
+
                 android:layout_margin="12dp"
                 style="@style/ThemeOverlay.AppCompat"
                 android:textAllCaps="false"

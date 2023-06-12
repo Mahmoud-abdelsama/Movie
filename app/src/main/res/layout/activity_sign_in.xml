@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         tools:context=".ui.signin.SiginInActivity">
 
+
         <LinearLayout
             android:id="@+id/layaout"
             android:layout_width="match_parent"

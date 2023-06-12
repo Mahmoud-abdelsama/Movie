@@ -1,7 +1,9 @@
 package com.example.movieapp.ui.signin
 
-import com.example.movieapp.base.BaseViewModel
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModel
 
-class SiginViewModel:BaseViewModel<Navigator>() {
+class SiginViewModel:ViewModel() {
+
 
 }
